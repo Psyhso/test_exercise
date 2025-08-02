@@ -1,0 +1,16 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Virtual environment
+venv/
+
+# Python cache
+**/__pycache__/
+
+# IDE
+.idea/
+.vscode/
+
+#db
+tenders.db
