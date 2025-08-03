@@ -37,10 +37,17 @@
 Как запустить веб приложение:
 python app.py
 
-Стек: Python 3.11+ / Flask / SQLAchemy / Pandas / Click / Requests  / BeautifulSoup4 / Git 
+Проект есть на DockerHub. Для установки через него используйте следующие инструкции:
+1. Скачайте образ из Docker Hub:
+   docker pull psyhco/test_exc:latest
+2. Запустите контейнер:
+   docker run -p 8000:8000 psyhco/test_exc:lates
+
+Стек: Python 3.11+ / Flask / SQLAchemy / Pandas / Click / Requests  / BeautifulSoup4 / Git / Docker
 
 Что можно улучшить:
 1. Расширение парсируемых данных
 2. Инкрементальное обновление данных
 3. Кэширование результатов (использовать Redis)
 4. Экспорт в другие форматы (JSON, Excel)
+5. Улучшить Docker image, чтобы улучшить деплой.
